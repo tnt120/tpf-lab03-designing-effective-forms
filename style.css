@@ -1,3 +1,24 @@
 .modal {
     background: #c6d0ff7a;
 }
+
+#countrySuggestions {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ced4da;
+    border-top: none;
+    background: white;
+}
+#countrySuggestions .list-group-item {
+    cursor: pointer;
+}
+
+form.submitted-checked input:invalid,
+form.submitted-checked select:invalid,
+form.submitted-checked textarea:invalid {
+    border: 1px solid red;
+}
+
+.d-none {
+    display: none;
+}
